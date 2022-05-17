@@ -44,6 +44,6 @@ npm run build
 ```sh
 npm run lint
 ```
-# space-tourims
+# space-tourism
     is this a test
 
