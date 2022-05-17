@@ -1,15 +1,11 @@
 <template>
-  <!-- <a class="nav-item" href="https://www.google.com">
-    <strong>{{ pageNumber }}</strong> {{ pageName }}</a
-  > -->
-  
   <RouterLink class="nav-item" :to="pageLink">
-    <strong>{{ pageNumber }}</strong> {{ pageName }}</RouterLink>
+    <strong>{{ pageNumber }}</strong> {{ pageName }}</RouterLink
+  >
 </template>
 
 <script setup lang="ts">
-import { RouterLink } from "vue-router";
-
+import { RouterLink } from 'vue-router'
 
 defineProps<{
   pageNumber: string
@@ -17,7 +13,6 @@ defineProps<{
   pageLink: string
 }>()
 </script>
-
 
 <style scoped>
 .nav-item {

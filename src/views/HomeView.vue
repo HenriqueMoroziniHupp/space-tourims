@@ -1,12 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an home page</h1>
+  <div>
+    <HomeButton/>
+    <HomePresentation/>
   </div>
 </template>
 
-<style>
-h1 {
-  color: white;
-}
+<script setup lang="ts">
+import HomeButton from '@/components/content/homeContent/HomeButton.vue';
+import HomePresentation from '@/components/content/homeContent/HomePresentation.vue';
+
+</script>
+
+<style scoped>
 
 </style>
