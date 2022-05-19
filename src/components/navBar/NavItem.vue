@@ -8,7 +8,7 @@
 import { RouterLink } from 'vue-router'
 
 defineProps<{
-  pageNumber: string
+  pageNumber?: string
   pageName: string
   pageLink: string
 }>()

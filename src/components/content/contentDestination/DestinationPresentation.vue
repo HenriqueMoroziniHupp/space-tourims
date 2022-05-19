@@ -8,6 +8,7 @@ defineProps<{
 </script>
 
 <template>
+
   <div class="destination-presentation">
     <div class="content-text">
       <h2 class="header-title">{{ headerTitle }}</h2>

@@ -3,21 +3,20 @@
     <img class="logo" src="@/assets/icon/logo.svg" alt="logo" />
     <hr class="row" />
     <ul class="nav-ul">
-      <li>
+      <li class="nav-li">
         <NavItem page-number="00" page-name="HOME" page-link="/" />
       </li>
-      <li>
+      <li class="nav-li">
         <NavItem
           page-number="01"
           page-name="DESTINATION"
           page-link="/destination"
         />
-        <!-- <RouterLink class="link" to="/destination"><strong>00</strong> DESTINATION</RouterLink> -->
       </li>
-      <li>
+      <li class="nav-li">
         <NavItem page-number="02" page-name="CREW" page-link="/crew" />
       </li>
-      <li>
+      <li class="nav-li">
         <NavItem
           page-number="03"
           page-name="TECHNOLOGY"
@@ -29,20 +28,12 @@
 </template>
 
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
 import NavItem from './NavItem.vue'
 </script>
 
 <style lang="scss" scoped>
 .nav-bar {
-  .link {
-    text-decoration: none;
-    color: var(--white);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
-    cursor: pointer;
-  }
+
   display: grid;
   align-items: center;
   grid-auto-flow: column;
