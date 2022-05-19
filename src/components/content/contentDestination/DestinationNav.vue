@@ -6,16 +6,16 @@ import NavItem from '../../navBar/NavItem.vue';
   <div class="destination-nav">
     <ul class="nav-ul">
       <li class="nav-li">
-        <NavItem page-name="MOON" page-link="/"/>
+        <NavItem page-name="MOON" page-link="/destination"/>
       </li>
       <li class="nav-li">
-       <NavItem page-name="MARS" page-link="/mars"/>
+       <NavItem page-name="MARS" page-link="/destination/mars"/>
       </li>
       <li class="nav-li">
-       <NavItem page-name="EUROPA" page-link="europa"/>
+       <NavItem page-name="EUROPA" page-link="/destination/europa"/>
       </li>
       <li class="nav-li">
-        <NavItem page-name="TITAN" page-link="titan" />
+        <NavItem page-name="TITAN" page-link="/destination/titan" />
       </li>
     </ul>
   </div>

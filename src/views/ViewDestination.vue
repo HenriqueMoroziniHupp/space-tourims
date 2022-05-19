@@ -8,7 +8,6 @@ import Moon from '../components/content/contentDestination/destinations/Moon.vue
 <template>
   <div>
     <!-- <DestinationNav /> -->
-    <Moon/>
     <RouterView />
     <!-- <DestinationPresentation
       headerTitle="MOON"
