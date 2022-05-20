@@ -1,12 +1,13 @@
+<script setup lang="ts">
+import CrewTemplate from '../components/content/contentCrew/CrewTemplate.vue'
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an crew page</h1>
+  <div>
+    <CrewTemplate />
   </div>
 </template>
 
-<style>
-h1 {
-  color: white;
-}
+<style lang="scss" scoped>
 
 </style>
