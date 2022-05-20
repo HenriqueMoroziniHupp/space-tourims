@@ -33,7 +33,7 @@ import NavItem from './NavItem.vue'
 
 <style lang="scss" scoped>
 .nav-bar {
-
+  max-width: 1385px;
   display: grid;
   align-items: center;
   grid-auto-flow: column;

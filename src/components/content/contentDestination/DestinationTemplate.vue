@@ -1,16 +1,17 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { RouterView } from 'vue-router'
+import InfoPage from '../InfoPage.vue'
+</script>
 
 <template>
   <div class="template">
-    <div class="info-page">
-      <slot name="info-page">
-        <!-- info-page content here -->
-      </slot>
-    </div>
-
-    <slot name="content">
-      <!-- page content here-->
-    </slot>
+    <InfoPage
+      class="info-page"
+      number-page="01"
+      info-page="PICK YOUR
+    DESTINATION"
+    />
+    <RouterView />
   </div>
 </template>
 

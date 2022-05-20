@@ -1,15 +1,25 @@
 <script setup lang="ts">
 import NavBar from './components/navBar/NavBar.vue'
 import { RouterView } from 'vue-router'
-
 </script>
 
 <template>
-  <header class="header">
-    <NavBar />
-  </header>
+  <main class="template">
+    <header class="header">
+      <NavBar />
+    </header>
 
-  <RouterView/>
+    <RouterView />
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+.template {
+  // display: grid;
+
+  // place-items: center;
+  // display: grid;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+</style>
