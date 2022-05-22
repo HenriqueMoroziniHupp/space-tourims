@@ -6,7 +6,8 @@ import NavItem from '../../navBar/NavItem.vue';
   <div class="destination-nav">
     <ul class="nav-ul">
       <li class="nav-li">
-        <NavItem page-name="MOON" page-link="/destination"/>
+        <NavItem page-name="MOON" page-link="/destination"/> 
+        <!-- Render Moon on created, see router/index.ts -->
       </li>
       <li class="nav-li">
        <NavItem page-name="MARS" page-link="/destination/mars"/>

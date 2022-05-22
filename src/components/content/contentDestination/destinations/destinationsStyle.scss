@@ -1,0 +1,33 @@
+
+@import '@/assets/mediaQuery.scss';
+
+.content-destination {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 445px 445px;
+  gap: 10rem;
+  .destination-image {
+    height: 92%;
+  }
+  .content-presentation {
+    display: grid;
+    gap: 2rem;
+    // align-self: end;
+    // height: max-content;
+  }
+}
+
+@include tablet {
+  .content-destination {
+    grid-template-columns: 576px;
+    gap: 3.3rem;
+  }
+  .destination-image {
+    height: 80%;
+  }
+
+  .content-presentation {
+    justify-items: center;
+    text-align: center;
+  }
+}

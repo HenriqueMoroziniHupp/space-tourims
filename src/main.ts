@@ -9,6 +9,7 @@ import 'normalize.css'
 // global styles
 import '@/assets/base.css'
 
+
 const app = createApp(App)
 
 // app.use(createPinia())

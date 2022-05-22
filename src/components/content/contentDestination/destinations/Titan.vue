@@ -23,21 +23,6 @@ import DestinationNav from '../DestinationNav.vue'
 </template>
 
 <style scoped lang="scss">
-.content-destination {
-  display: grid;
-  place-items: center;
-  grid-template-columns: 445px 445px;
-  grid-gap: 10rem;
-  .destination-image {
-    height: 92%;
-  }
-
-  .content-presentation {
-    display: grid;
-    gap: 2rem;
-    // align-self: end;
-    // height: max-content;
-  }
-
-}
+// All styles of /destinations are here
+@import '@/components/content/contentDestination/destinations/destinationsStyle.scss';
 </style>

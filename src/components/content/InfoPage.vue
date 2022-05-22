@@ -25,4 +25,6 @@ defineProps<{
     color: var(--gray);
   }
 }
+
+
 </style>

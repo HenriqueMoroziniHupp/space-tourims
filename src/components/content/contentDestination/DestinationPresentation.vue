@@ -58,7 +58,7 @@ defineProps<{
     
     grid-template-columns: 1fr 1fr;
     // grid-template-rows: 1fr 1fr;
-    justify-items: start;
+    // justify-items: start;
     border-top: solid 1px var(--gray);
     padding-top: 2rem;
 

@@ -15,6 +15,7 @@
 </template>
 
 <style lang="scss" scoped>
+@import '@/assets/mediaQuery.scss';
 .template {
   .info-page {
     padding: 3rem 6rem;
@@ -25,5 +26,13 @@
   //   // display: grid;
   // max-width: 1050px;
   // margin: 0 auto;
+}
+
+@include tablet {
+  .template {
+    .info-page {
+      padding: 3rem;
+    }
+  }
 }
 </style>
