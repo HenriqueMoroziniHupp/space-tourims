@@ -1,0 +1,50 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+@mixin tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+
+:root {
+  --dark-blue: #0b0d17;
+  --soft-lilac: #d0d6f9;
+  --white: #ffffff;
+  --gray: #616476;
+  --soft-gray: #979797;
+  --shadow: #24262f;
+}
+
+* {
+  /* margin: 0; */
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  font-family: 'Bellefair', serif;
+  background-image: url(@/assets/destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: cover;
+  color: var(--white);
+}
+
+@include tablet {
+  body {
+    background-image: url(@/assets/destination/background-destination-tablet.jpg);
+  }
+}
+
+@include mobile {
+  body {
+    background-image: url(@/assets/destination/background-destination-mobile.jpg);
+  }
+}

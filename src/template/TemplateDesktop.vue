@@ -15,7 +15,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import '@/assets/mediaQuery.scss';
+@import '@/assets/base.scss';
 .template {
   .info-page {
     padding: 3rem 6rem;
