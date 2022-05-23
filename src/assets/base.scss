@@ -22,11 +22,10 @@
   --shadow: #24262f;
 }
 
-* {
-  /* margin: 0; */
-}
+
 
 body {
+  width: 100vw;
   height: 100vh;
   display: grid;
   font-family: 'Bellefair', serif;
@@ -35,16 +34,17 @@ body {
   background-size: cover;
   background-attachment: cover;
   color: var(--white);
+  background-color: violet;
 }
 
 @include tablet {
   body {
-    background-image: url(@/assets/destination/background-destination-mobile.jpg);
+    background-image: url(@/assets/destination/background-destination-tablet.jpg);
   }
 }
 
 @include mobile {
   body {
-    background-image: url(@/assets/home/background-home-mobile.jpg);
+    background-image: url(@/assets/destination/background-destination-mobile.jpg);
   }
 }
