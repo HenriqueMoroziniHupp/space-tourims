@@ -23,15 +23,24 @@
   }
   display: grid;
   place-items: center;
-  //   // display: grid;
-  // max-width: 1050px;
-  // margin: 0 auto;
+  margin: 0 auto;
 }
 
 @include tablet {
   .template {
+    // max-width: 573px;
     .info-page {
       padding: 3rem;
+    }
+  }
+}
+
+@include mobile {
+  .template {
+    // max-width: 327px;
+    .info-page {
+      padding: 2rem;
+      justify-self: center;
     }
   }
 }

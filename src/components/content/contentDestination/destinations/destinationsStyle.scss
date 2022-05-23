@@ -20,13 +20,19 @@
   .content-destination {
     grid-template-columns: 576px;
     gap: 3.3rem;
-  }
-  .destination-image {
-    height: 80%;
-  }
 
-  .content-presentation {
-    justify-items: center;
-    text-align: center;
+    .destination-image {
+      height: 80%;
+    }
+    .content-presentation {
+      justify-items: center;
+      text-align: center;
+    }
+  }
+}
+
+@include mobile {
+  .content-destination {
+    grid-template-columns: 327px;
   }
 }

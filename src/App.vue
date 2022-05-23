@@ -15,10 +15,6 @@ import { RouterView } from 'vue-router'
 
 <style scoped lang="scss">
 .template {
-  // display: grid;
-
-  // place-items: center;
-  // display: grid;
   max-width: 1440px;
   margin: 0 auto;
 }
