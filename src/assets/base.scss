@@ -13,6 +13,10 @@
   }
 }
 
+*,h1, h2, h3, h4, h5, div, span, p {
+  margin: 0;
+}
+
 :root {
   --dark-blue: #0b0d17;
   --soft-lilac: #d0d6f9;

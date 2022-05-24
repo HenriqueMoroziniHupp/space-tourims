@@ -14,30 +14,34 @@
 
 <style lang="scss" scoped>
 
-* {
-  margin: 0;
-}
+// * {
+//   margin: 0;
+// }
 
-.title-top {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400;
-  font-size: 28px;
-  letter-spacing: 5px;
-  color: var(--soft-lilac);
+.home-presentation{
 
-}
-.title-main {
-  font-family: "Bellefair" sans-serif;
-  font-size: 150px;
-  font-weight: 400;
-}
+  .title-top {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 5px;
+    color: var(--soft-lilac);
+  
+  }
+  .title-main {
+    font-family: "Bellefair" sans-serif;
+    font-size: 150px;
+    font-weight: 400;
+  }
+  
+  .description {
+    font-family: "Barlow Regular", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--soft-lilac);
+  }
 
-.description {
-  font-family: "Barlow Regular", sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--soft-lilac);
-}
+}  
 
 
 </style>
