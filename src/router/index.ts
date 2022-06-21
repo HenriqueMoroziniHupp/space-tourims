@@ -5,6 +5,11 @@ import Mars from '@/components/content/contentDestination/destinations/Mars.vue'
 import Europa from '@/components/content/contentDestination/destinations/Europa.vue'
 import Titan from '@/components/content/contentDestination/destinations/Titan.vue'
 
+import DouglasHurley from '@/components/content/contentCrew/crews/DouglasHurley.vue'
+import MarkShuttleworth from '@/components/content/contentCrew/crews/MarkShuttleworth.vue'
+import VictorGlover from '@/components/content/contentCrew/crews/VictorGlover.vue'
+import AnoushehAnsari from '@/components/content/contentCrew/crews/AnoushehAnsari.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -30,7 +35,13 @@ const router = createRouter({
     {
       path: '/crew',
       name: 'crew',
-      component: () => import('../views/ViewCrew.vue')
+      component: () => import('../views/ViewCrew.vue'),
+      children: [
+        { path: '', name: 'DouglasHurley', component: DouglasHurley },
+        { path: 'MarkShuttleworth', name: 'MarkShuttleworth', component: MarkShuttleworth },
+        { path: 'VictorGlover', name: 'VictorGlover', component: VictorGlover },
+        { path: 'AnoushehAnsari', name: 'AnoushehAnsari', component: AnoushehAnsari }
+      ]
     },
     {
       path: '/technology',

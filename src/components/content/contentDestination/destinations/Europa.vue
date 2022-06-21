@@ -8,7 +8,7 @@ import DestinationNav from '../DestinationNav.vue'
     <img
       class="destination-image"
       src="@/assets/destination/image-europa.webp"
-      alt="Moon"
+      alt="Europa"
     />
     <div class="content-presentation">
       <DestinationNav />
@@ -25,5 +25,4 @@ import DestinationNav from '../DestinationNav.vue'
 <style scoped lang="scss">
 // All styles of /destinations are here
 @import '@/components/content/contentDestination/destinations/destinationsStyle.scss';
-
 </style>

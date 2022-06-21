@@ -8,22 +8,17 @@ defineProps<{
 </script>
 
 <template>
-
   <div class="destination-presentation">
     <div class="content-text">
       <h2 class="header-title">{{ headerTitle }}</h2>
       <p class="description">{{ description }}</p>
     </div>
+
     <div class="content-info">
-      <!-- <span> -->
       <p class="info-title">AVG. DISTANCE</p>
       <p class="info-title">EST. TRAVEL TIME</p>
-
       <p class="info-statistic">{{ distance }}</p>
-      <!-- </span> -->
-      <!-- <span> -->
       <p class="info-statistic">{{ time }}</p>
-      <!-- </span> -->
     </div>
   </div>
 </template>
@@ -55,7 +50,7 @@ defineProps<{
   .content-info {
     display: grid;
     gap: 1rem;
-    
+
     grid-template-columns: 1fr 1fr;
     // grid-template-rows: 1fr 1fr;
     // justify-items: start;

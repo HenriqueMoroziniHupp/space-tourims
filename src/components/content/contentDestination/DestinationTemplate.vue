@@ -2,7 +2,6 @@
 import { RouterView } from 'vue-router'
 import InfoPage from '../InfoPage.vue'
 import TemplateDesktop from '../../../template/TemplateDesktop.vue'
-
 </script>
 
 <template>
@@ -15,10 +14,10 @@ import TemplateDesktop from '../../../template/TemplateDesktop.vue'
     /></template>
 
     <template v-slot:content>
+      <!-- DestinationPresentatio.vue render here ! -->
       <RouterView />
     </template>
   </TemplateDesktop>
 </template>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

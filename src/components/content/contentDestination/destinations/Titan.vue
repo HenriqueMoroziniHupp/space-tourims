@@ -8,7 +8,7 @@ import DestinationNav from '../DestinationNav.vue'
     <img
       class="destination-image"
       src="@/assets/destination/image-titan.webp"
-      alt="Moon"
+      alt="Titan"
     />
     <div class="content-presentation">
       <DestinationNav />

@@ -1,1 +1,24 @@
 @import '@/assets/base.scss';
+
+.content-crew {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 614px 500px;
+  grid-template-rows: 300px;
+  place-self: start;
+  padding-left: 6rem;
+
+  .crew-image {
+    height: 100%;
+    object-fit: contain;
+    align-self: end;
+  }
+}
+
+
+// display: grid;
+// height: 100%;
+// justify-content: center;
+// align-content: end;
+// grid-template-columns: 614px 500px;
+// grid-template-rows: 600px;

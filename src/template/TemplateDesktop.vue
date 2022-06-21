@@ -17,13 +17,14 @@
 <style lang="scss" scoped>
 @import '@/assets/base.scss';
 .template {
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+
   .info-page {
     padding: 3rem 6rem;
     justify-self: start;
   }
-  display: grid;
-  place-items: center;
-  margin: 0 auto;
 }
 
 @include tablet {
