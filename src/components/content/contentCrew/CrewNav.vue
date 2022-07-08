@@ -28,7 +28,7 @@ import { RouterLink } from 'vue-router'
 .crew-nav {
   .nav-ul {
     margin: 0;
-    padding: 1;
+    padding: 0;
     display: grid;
     grid-auto-flow: column;
     gap: 3rem;
